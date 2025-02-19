@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full stack Lista de exercicios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="titulo"></h1>
+    <div id="ex1">
+        <h2>Cálculo de desconto</h2>
+        <input type="number" step="0.01" id="preco" placeholder="Preço">
+        <button onclick="exemplo()">Obter Desconto</button>
+        <p id="resultado"></p>
+    </div>
+
+    <h1 id="titulo"></h1>
+    <div id="ex2">
+        <h2>Salário Família</h2>
+        <input type="number" step="0.01" id="salario" placeholder="Salario">
+        <input type="number" id="filhos" placeholder="Numero de filhos">
+        <button onclick="calcular()">Calcular</button>
+        <p id="resultadoSalario"></p>
+    </div>
+    
+
+    <div id="ex3">
+        <h2>INSS</h2>
+        <input type="number" step="0.01"  id="salarioinss" placeholder="Salario">
+        <button onclick="verSalario()">Calcular</button>
+        <p id="resultadoinss"></p>
+    </div>
+
+    <div id="ex4">
+        <h2>Triangulo</h2>
+        <input type="number" id="lado1" placeholder="Lado 1">
+        <input type="number" id="lado2" placeholder="Lado 2">
+        <input type="number" id="lado3" placeholder="Lado 3">
+        <button onclick="ver()">Ver</button>
+        <p id="lados"></p>
+    </div>
+
+    <div id="ex5">
+        <h2>Atualizar Preço da Mercadoria</h2>
+        <input type="text" id="nome" placeholder="Nome da Mercadoria">
+        <input type="number" step="0.01" id="preco1" placeholder="Preço">
+        <button onclick="atualizarPreco()">Atualizar Preço</button>
+        <p id="resultado1"></p>
+    </div>
+
+    <div id="ex6">
+        <h2>Maior Número Digitado</h2>
+        <input type="number" id="n1" placeholder="Número 1">
+        <input type="number" id="n2" placeholder="Número 2">
+        <input type="number" id="n3" placeholder="Número 3">
+        <input type="number" id="n4" placeholder="Número 4">
+        <input type="number" id="n5" placeholder="Número 5">
+        <input type="number" id="n6" placeholder="Número 6">
+        <button onclick="numero()">Ver Maior Número</button>
+        <p id="resultado2"></p>
+    </div>
+
+    <div id="ex7">
+        <h2>Ordenar Números</h2>
+        <input type="number" id="nu1" placeholder="Número 1">
+        <input type="number" id="nu2" placeholder="Número 2">
+        <input type="number" id="nu3" placeholder="Número 3">
+        <input type="number" id="nu4" placeholder="Número 4">
+        <input type="number" id="nu5" placeholder="Número 5">
+        <button onclick="ordenar()">Ordenar Números</button>
+        <p id="resultado3"></p>
+    </div>
+
+    <div id="ex7">
+        <h2>Comparar Números</h2>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+        <button onclick="comparar()">Comparar Números</button>
+        <p id="resultado4"></p>
+    </div>
+
+    <div id="ex9">
+        <h1>Reajuste Salarial</h1>
+        <input type="number" step="0.01" id="salario" placeholder="Salário Atual">
+        <button onclick="Reajuste()">Calcular Reajuste</button>
+        <p id="resultado5"></p>
+    </div>
+    
+
+    <div id="ex10">
+        <h1>Nota</h1>
+        <input type="number" id="nota1" placeholder="Nota 1">
+        <input type="number" id="nota2" placeholder="Nota 2">
+        <input type="number" id="nota3" placeholder="Nota 3">
+        <button onclick="nota()">Ver Nota</button>
+        <p id="resultado6"></p>
+    </div>
+    
+
+    <div id="ex11">
+        <h1>Promoção de Loja</h1>
+        <select id="peca">
+            <option value="camisa">Camisa</option>
+            <option value="bermuda">Bermuda</option>
+            <option value="calca">Calça</option>
+        </select>
+        <input type="number" step="0.01" id="preco" placeholder="Preço">
+        <button onclick="calcularDesconto()">Calcular Desconto</button>
+        <p id="resultado7"></p>
+    </div>
+    
+    
+    
+
+
+    
+</body>
+
+<script src="index.js"></script>
+</html>
